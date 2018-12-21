@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-#Rajan Paudel-
+#Rajan Paudel 
 #pur-pyr
 $chromo = 1;$pairs ='';
 for $ko(0..9){
@@ -81,7 +81,6 @@ foreach $am(keys %h0){
 			}
 	print ALL "@{a.$am}\n";
 	}
-__END__
 open(DAT,"fulltable")|| die 'cannot open file';
 open(OUT,">finaltable")|| die "cannot create"; 
 while(<DAT>){
