@@ -1,7 +1,8 @@
 #!/usr/bin/perl
+#rajanpaudel
 $ch = 1;$p = 0;
 for $ch(1..22){
-	#system("tail -n +2 chr$ch.fa | paste -s -d \"\" >chr$ch");
+	system("tail -n +2 chr$ch.fa | paste -s -d \"\" >chr$ch");
 	open(OUT,">z_r_80_$ch")||die 'cannot do open';
 	open(IN,"/home/rajan/the1120/chr/chr$ch")|| die "Couldn't open file: $!";
 	$ini = '';$tot = 0;$n=1;$se = '';$seq ='';
